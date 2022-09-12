@@ -70,7 +70,9 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git fast-syntax-highlighting)
+plugins=(git ssh-agent fast-syntax-highlighting)
+
+zstyle :omz:plugins:ssh-agent lazy yes
 
 source $ZSH/oh-my-zsh.sh
 
@@ -102,3 +104,13 @@ source $ZSH/oh-my-zsh.sh
 
 # vim binding
 bindkey -v
+
+# icat
+alias icat="kitty +kitten icat"
+
+# lsd
+alias ls=lsd
+
+# reflector update mirror
+path+=('/home/hungerarray/.local/share/bin')
+export path
