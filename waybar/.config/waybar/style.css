@@ -136,3 +136,41 @@ window#waybar.hidden {
 	background: #282a36;
 }
 
+#battery {
+	margin-top: 8px;
+	margin-left: 8px;
+	margin-right: 12px;
+	padding-left: 16px;
+	padding-right: 16px;
+	margin-bottom: 0;
+	border-radius: 26px;
+	transition: none;
+	color: #f8f8f2;
+	background: #56b849;
+}
+#battery.warning {
+	background: #dbd15a;
+}
+#battery.critical {
+	background: #f23838;
+}
+
+#tray {
+	margin-top: 8px;
+	margin-left: 8px;
+	margin-right: 12px;
+	padding-left: 16px;
+	padding-right: 16px;
+	margin-bottom: 0;
+	border-radius: 26px;
+	transition: none;
+	color: #f8f8f2;
+	background: #282a36;
+}
+
+#tray > .active {
+	border: 1px double #43b6d9;
+}
+#tray > .needs-attention {
+	border: 2px double #e61717;
+}
