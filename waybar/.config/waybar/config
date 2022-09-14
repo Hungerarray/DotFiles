@@ -1,5 +1,6 @@
 {
 	"layer": "top",
+	"position": "top",
 	"modules-left": ["wlr/workspaces", "hyprland/window"],
 	"modules-center": ["clock#clk2"],
 	"modules-right": ["network", "pulseaudio", "temperature", "cpu", "memory", "clock", "battery", "tray"],

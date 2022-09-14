@@ -118,3 +118,16 @@ export path
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# neovide fix for now
+alias nvide='WINIT_UNIX_BACKEND=x11 neovide'
+
+# Tex Live 
+# export TEXLIVE_INSTALL_ENV_NOCHECK=1
+# export TEXLIVE_INSTALL_NO_DISKCHECK=1
+#
+path+=('/home/hungerarray/.local/texlive/2022/bin/x86_64-linux')
+manpath+=('/home/hungerarray/.local/texlive/2022/texmf-dist/doc/man')
+infopath+=('/home/hungerarray/.local/texlive/2022/texmf-dist/doc/info')
+export path
+export manpath

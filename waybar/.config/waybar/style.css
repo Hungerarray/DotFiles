@@ -168,9 +168,9 @@ window#waybar.hidden {
 	background: #282a36;
 }
 
-#tray > .active {
-	border: 1px double #43b6d9;
-}
-#tray > .needs-attention {
-	border: 2px double #e61717;
-}
+/* #tray > .active { */
+/* 	border: 1px double #43b6d9; */
+/* } */
+/* #tray > .needs-attention { */
+/* 	border: 2px double #e61717; */
+/* } */
