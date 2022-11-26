@@ -113,7 +113,7 @@ alias ls=lsd
 
 # reflector update mirror
 path+=('/home/hungerarray/.local/share/bin')
-export path
+path+=('/home/hungerarray/.local/bin')
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
